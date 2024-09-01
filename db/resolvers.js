@@ -150,7 +150,7 @@ const resolvers = {
                     }
                 },
                 {
-                    $limit: 3
+                    $limit: 10
                 },
                 {
                     $sort: { total: -1 }
